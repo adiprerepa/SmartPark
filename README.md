@@ -27,6 +27,10 @@ For the website, to be added.
 
 Point the camera of the Raspberry Pi in a direction so it can see the liscence plate. Download the contents of the Raspberry Pi folder on the Raspberry Pi.  ls to the folder and do `java -cp ":jrpicam-1.1.1.jar:" CameraSender` to run the CameraSender.class file.
 
+## Further Expansion
+
+This program can be expanded to maintain a running memory of cars and their license plates in a parking lot. We plan on adding this as an extension to the project.
+
 ## Built With
 
 * [JRPiCam](https://github.com/Hopding/JRPiCam "hello"), the Java version of the RPi Camera Modu API.
