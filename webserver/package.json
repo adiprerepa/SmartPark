@@ -1,0 +1,15 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "Web Server for Parking Security Project",
+  "main": "Parking Security.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ishan Jain",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "ws": "^6.1.4"
+  }
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<title>KnoParking</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Design.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+
+<body>
+
+<!-- Navigation Bar -->
+<div class="top">
+  <div class="wbar red card left-align large">
+    <a href="#" class="bar-item button padding-large white">Home</a>
+
+  </div>
+</div>
+
+<!-- Header -->
+<header class="container red center" style="padding:128px 16px">
+  <h1 class="margin jumbo">KnoParking</h1>
+  <p class="xlarge">Uses HTML, Java, Javascript, and CSS</p>
+  <a class="button black padding-large large margin-top" href="#down">See Image Taken!</a>
+  <div id="down">
+    <h3>Connection Status:</h3>
+    <h2 id="status">(can't find client)</h3>
+    <script src="server.js"></script>
+  </div>
+
+</header>
+
+
+<!-- First Grid -->
+<div class="row-padding padding-64 container">
+  <div class="content">
+    <div class="onethird">
+      <h3 class="padding-32">Picture Taken:</h3>
+    <input type="file" id="upl" style="display:none"/>
+
+    <center><img id= "image" src="image.jpg"></img></center>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="row-padding padding-64 container">
+  <div class="content">
+    <div class="twothird">
+      <h3 class="padding-32">Logged Dates:</h3>
+    <input type="file" id="upl" style="display:none"/>
+
+    <object width="1000" height="1000" type="text/plain" data="time.txt" border="10" ></object>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
