@@ -17,7 +17,7 @@ The Raspberry Pi program will not run unless the terminal command `vcgencmd get_
 
 1. Check to make sure ribbon of the camera is facing the right way, and is all the way in the connector slot. 
 2. Check to make sure ribbon is in proper connector slot: the one between the ethernet port and the HDMI port.
-3. Try enabling the python interface. Run `sudo apt-get update` and `sudo apt-get upgrade`. Then run `sudo raspi-config`. If the `camera` option doesn't appear, select the `Update` option, restart the raspberry pi, and then go back and  select the `Interfacing Options`, select `Camera`, and enable it. If it does appear select `camera`and enable it, run `vcgencmd get_camera` again, and the camera should be detected.
+3. Try enabling the camera interface in the config settings. Run `sudo apt-get update` and `sudo apt-get upgrade`. Then run `sudo raspi-config`. If the `camera` option doesn't appear, select the `Update` option, restart the raspberry pi, and then go back and  select the `Interfacing Options`, select `Camera`, and enable it. If it does appear, select `camera` and enable it, run `vcgencmd get_camera` again, and the camera should be detected.
 
 For the ESP8266 Motion Detector, to be added.
 
