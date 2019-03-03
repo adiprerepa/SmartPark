@@ -6,7 +6,7 @@ Car Detection System. The entire system detects motion, sends pictures to a webs
 
 The setup requires three things:
 
-* A Raspberry Pi with a [Camera Module](https://www.raspberrypi.org/documentation/hardware/camera/ "Camera Module").
+* A Raspberry Pi with a [Camera Module](https://www.raspberrypi.org/documentation/hardware/camera).
 * A ESP8266 with a HCSR04 Motion Detector.
 * A computer running the website.
 
@@ -24,7 +24,7 @@ For the website, *to be added*.
 
 ## Deployment
 
-Point the camera of the Raspberry Pi in a direction so it can see the liscence plate. The Camera should hang from the ribbon so the ribbon is above the Camera. Download the contents of the Raspberry Pi folder on the Raspberry Pi. ls to the folder and do `java -cp ":jrpicam-1.1.1.jar:" CameraSender` to run the CameraSender.class file.
+Point the camera of the Raspberry Pi in a direction so it can see the liscence plate, and the and the ESP8266 right above the space for the car. The Camera should hang from the ribbon so the ribbon is above the Camera. Download the contents of the Raspberry Pi folder on the Raspberry Pi. ls to the folder and do `java -cp ":jrpicam-1.1.1.jar:" CameraSender` to run the CameraSender.class file.
 
 ## Further Expansion
 
@@ -32,17 +32,27 @@ This program can be expanded to maintain a running memory of cars and their lice
 
 ## Built With
 
-* [JRPiCam](https://github.com/Hopding/JRPiCam "hello"), the Java version of the RPi Camera Modu API.
+* [JRPiCam](https://github.com/Hopding/JRPiCam), the Java version of the RPi Camera Modu API.
 
 ## Info
 
 This program was used for PioneerHacks II 2019.
 
+## Links
+
+* [Devpost](https://devpost.com/software/knoparking) 
+* [Adobe Spark](https://spark.adobe.com/page/TnMddVnVLV9Kn/) 
+
 ## Authors
 
 * Aditya Prerepa
-- Server architecture, MySQL schema, push pull networking, Web Server Wrapper code.
+ - Server architecture
+ - MySQL schema
+ - push pull networking
+Web Server Wrapper code.
 * Akshay Trivedi
-- RPI image taking, image sending, networking assistance
+ - RPI image taking
+ - image sending
+ - networking assistance/backup/smart kid
 * Ishan Jain
-- Web Design
+ - Web Design
