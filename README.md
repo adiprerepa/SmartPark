@@ -40,6 +40,9 @@ This program was used for PioneerHacks II 2019.
 
 ## Authors
 
-* Akshay Trivedi
-* Ishan Jain
 * Aditya Prerepa
+- Server architecture, MySQL schema, push pull networking, Web Server Wrapper code.
+* Akshay Trivedi
+- RPI image taking, image sending, networking assistance
+* Ishan Jain
+- Web Design
